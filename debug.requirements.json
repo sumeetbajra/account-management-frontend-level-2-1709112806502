@@ -1,0 +1,34 @@
+[
+  {
+    "requirement": "The application correctly implements adding a new recipe feature.",
+    "criteria": "<p>Ensure the form for adding a new recipe includes the necessary input fields with the correct data-test attributes.</p><p>Verify that submitting the form updates the global state and the UI accordingly without needing to reload the page.</p>"
+  },
+  {
+    "requirement": "The application correctly implements viewing recipes feature.",
+    "criteria": "<p>Ensure each recipe is displayed with the correct structure and data-test attributes.</p><p>Recipes should be easily identifiable and readable by users.</p>"
+  },
+  {
+    "requirement": "The application correctly implements search and filter recipes feature.",
+    "criteria": "<p>Verify the search functionality works for both recipe names and keywords in descriptions.</p><p>Ensure the UI updates to display only the recipes that match the search criteria without reloading the page.</p>"
+  },
+  {
+    "requirement": "The application is styled using Chakra UI.",
+    "criteria": "<p>Ensure that the application uses Chakra UI components for UI elements and styling.</p><p>Assess the overall look and feel of the application for UI consistency and responsiveness.</p>"
+  },
+  {
+    "requirement": "The application passes all Cypress test cases.",
+    "criteria": "<p>Ensure the application is set up to run Cypress tests and passes all provided test suites.</p><p>Review the test coverage to ensure major functionalities are tested.</p>"
+  },
+  {
+    "requirement": "The codebase is well-structured and follows TypeScript best practices.",
+    "criteria": "<p>Assess the code organization and modularization for maintainability and scalability.</p><p>Ensure TypeScript is used effectively for type safety and code clarity.</p>"
+  },
+  {
+    "requirement": "Performance considerations are evident in the application.",
+    "criteria": "<p>Review the application for any performance issues, such as slow rendering or memory leaks.</p><p>Ensure best practices for optimizing React and Redux performance are applied, including memoization and selectors where appropriate.</p>"
+  },
+  {
+    "requirement": "The project includes a comprehensive suite of unit tests.",
+    "criteria": "<p>Ensure there is a significant number of unit tests covering critical functionalities of the application.</p><p>Tests should include both happy path and edge cases, demonstrating the candidate's ability to think through potential issues.</p>"
+  }
+]

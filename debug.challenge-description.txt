@@ -1,0 +1,1 @@
+Develop a Unique Recipe Book application using ReactJS, Redux, TypeScript, and Chakra UI, ensuring functionality through Cypress tests.
